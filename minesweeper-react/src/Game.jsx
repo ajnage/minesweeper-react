@@ -102,7 +102,6 @@ const Game = () => {
   //to handle right clicks. Passing e, which stands for event, to prevent the default action from happening when right clicking
   const handleContextMenu = (e, y, x) => {
     e.preventDefault();
-    console.log("right click");
     if (gameData[y][x].isRevealed) return; // return if cell is already revealed
     let updatedData = [...gameData];
     let mines = mineCount;

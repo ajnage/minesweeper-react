@@ -78,7 +78,6 @@ export const traverseBoard = (y, x, data, height, width) => {
   if (y > 0 && x < width - 1) el.push(data[y - 1][x + 1]); //bottom right
   if (y > 0) el.push(data[y - 1][x]); //bottom
   if (y > 0 && x > 0) el.push(data[y - 1][x - 1]); //bottom left
-  console.log(el);
   return el;
 };
 
