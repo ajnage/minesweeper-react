@@ -15,8 +15,8 @@ updateable props - gameData, gameStatus, mineCount, and key
 What is gameData and what does it return?
 returns a nested array of objects with the following structure
 [Array[0][0], Array[0][1], Array[0][2],....,Array[0][7]]
-.
-.
+...
+...
 [Array[7][0].....Array[7][7]]
 
 Each Array[y][x] holds an object with a collection of properties. In this case, the properties are - y,x,isMine,neighbor,isRevealed,isEmpty, isFlagged
